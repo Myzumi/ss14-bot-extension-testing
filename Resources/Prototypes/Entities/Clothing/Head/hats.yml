@@ -316,6 +316,22 @@
 
 - type: entity
   parent: ClothingHeadBase
+  id: ClothingHeadHatHopcapGreen
+  name: head of personnel's green cap
+  description: A grand, stylish head of personnel's cap.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hats/hopcap_green.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/hopcap_green.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - HamsterWearable
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHeadBase
   id: ClothingHeadHatHoshat
   name: head of security cap
   description: The robust standard-issue cap of the Head of Security. For showing the officers who's in charge.
